@@ -40,8 +40,8 @@ Build the image:
 
 Run the scanner:
 
-
-`` docker run -it vipra-xss-scanner --url https://example.com --method GET --params q=test ``
+`` sudo docker run --rm vipra-scanner --url "http://testphp.vulnweb.com/listprod
+ucts.php" --params "cat=1" ``
 
 Options:
 
@@ -99,6 +99,7 @@ Do not use it against systems without explicit permission.
 ## Screenshots
 
 <img width="1485" height="711" alt="Screenshot 2025-11-24 130228" src="https://github.com/user-attachments/assets/823f3a56-2533-401a-9d32-4602e9980aad" />
+
 
 
 
