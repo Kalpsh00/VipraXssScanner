@@ -96,6 +96,12 @@ Readable, maintainable code structure with comments for clarity.
 This tool is intended for **educational and authorized security testing purposes only**.  
 Do not use it against systems without explicit permission.
 
+## Screenshots
+
+<img width="1485" height="711" alt="Screenshot 2025-11-24 130228" src="https://github.com/user-attachments/assets/823f3a56-2533-401a-9d32-4602e9980aad" />
+
+
+
 
 
 
