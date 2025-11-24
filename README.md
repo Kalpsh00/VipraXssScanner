@@ -23,3 +23,9 @@ Clone the repository:
 ```bash
 git clone git@github.com:Kalpsh00/VipraXssScanner.git
 cd VipraXssScanner
+
+## 🛡️ Disclaimer
+This tool is intended for educational and authorized security testing purposes only.  
+Do not use it against systems without explicit permission.
+
+
