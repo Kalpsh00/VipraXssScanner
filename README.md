@@ -62,11 +62,11 @@ Payloads are randomized slightly to bypass naive filters.
 
 ## 🛠️ PayloadGenerator Logic
 
-Attribute name → <tag PAYLOAD=123>
+`` Attribute name → <tag PAYLOAD=123> ``
 
-Attribute value → <tag attr="PAYLOAD">
+`` Attribute value → <tag attr="PAYLOAD"> ``
 
-Text node → <tag>PAYLOAD</tag>
+`` Text node → <tag>PAYLOAD</tag> ``
 
 Payloads vary depending on injection position, ensuring coverage of multiple contexts.
 
@@ -92,5 +92,6 @@ Readable, maintainable code structure with comments for clarity.
 
 This tool is intended for **educational and authorized security testing purposes only**.  
 Do not use it against systems without explicit permission.
+
 
 
