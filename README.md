@@ -26,20 +26,19 @@ git clone git@github.com:Kalpsh00/VipraXssScanner.git
 cd VipraXssScanner
 
 
-## Create a virtual environment:
+## Usage (Docker Only)
 
-python3 -m venv venv
-source venv/bin/activate
+ 🐳 Run with Docker
 
-## Install dependencies:
+Build the image:
 
-pip install -r requirements.txt
-
-## Usage
+docker build -t vipra-xss-scanner .
 
 Run the scanner:
 
-python main.py --url https://example.com --method GET --params q=test
+
+docker run -it vipra-xss-scanner --url https://example.com --method GET --params q=test
+
 Options:
 
 --url → Target URL
@@ -87,3 +86,9 @@ Clear separation of payload generation and scanning logic.
 Docker support for containerized execution.
 
 Readable, maintainable code structure with comments for clarity.
+
+## 🛡️ Disclaimer
+
+This tool is intended for **educational and authorized security testing purposes only**.  
+Do not use it against systems without explicit permission.
+
