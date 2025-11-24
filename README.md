@@ -22,8 +22,9 @@ It detects whether injected payloads are reflected in HTTP responses across mult
 
 Clone the repository:
 
-git clone git@github.com:Kalpsh00/VipraXssScanner.git
-cd VipraXssScanner
+`` git clone git@github.com:Kalpsh00/VipraXssScanner.git ``
+
+`` cd VipraXssScanner ``
 
 
 ## Usage (Docker Only)
@@ -32,12 +33,12 @@ cd VipraXssScanner
 
 Build the image:
 
-docker build -t vipra-xss-scanner .
+``docker build -t vipra-xss-scanner . ``
 
 Run the scanner:
 
 
-docker run -it vipra-xss-scanner --url https://example.com --method GET --params q=test
+`` docker run -it vipra-xss-scanner --url https://example.com --method GET --params q=test ``
 
 Options:
 
@@ -91,4 +92,5 @@ Readable, maintainable code structure with comments for clarity.
 
 This tool is intended for **educational and authorized security testing purposes only**.  
 Do not use it against systems without explicit permission.
+
 
