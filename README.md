@@ -26,6 +26,9 @@ Clone the repository:
 
 `` cd VipraXssScanner ``
 
+##  Requirements
+- Docker (must be installed on the system to build and run the scanner)
+
 
 ## Usage (Docker Only)
 
@@ -92,6 +95,7 @@ Readable, maintainable code structure with comments for clarity.
 
 This tool is intended for **educational and authorized security testing purposes only**.  
 Do not use it against systems without explicit permission.
+
 
 
 
